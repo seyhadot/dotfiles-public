@@ -71,21 +71,21 @@ Watch my video tutorials:
 - [My product: Inkdrop - Markdown note-taking app](https://www.inkdrop.app/)
 ## Install 
 
--iwr -useb get.scoop.sh | iex
-scoop install curl sudo jq neovim gcc nvm fzf
-Install-Module posh-git -Scope CurrentUser -Force
-Install-Module oh-my-posh -Scope CurrentUser -Force
-nvim .\.config\powershell\user_profile.ps1
-nvim $PROFILE.CurrentUserCurrentHost
-#Paste 
-. $env:USERPROFILE\.config\powershell\user_profile.ps1
+- iwr -useb get.scoop.sh | iex
+- scoop install curl sudo jq neovim gcc nvm fzf
+- Install-Module posh-git -Scope CurrentUser -Force
+- Install-Module oh-my-posh -Scope CurrentUser -Force
+- nvim .\.config\powershell\user_profile.ps1
+- nvim $PROFILE.CurrentUserCurrentHost
+    #Paste 
+    . $env:USERPROFILE\.config\powershell\user_profile.ps1
 
-Install-Module -Name Terminal-Icons -Repository PSGallery -Force                                                                                            02:06:52 
-Install-Module Terminal-Icons
-Install-Module -Name z -Force
-Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+- Install-Module -Name Terminal-Icons -Repository PSGallery -Force                                                                                            -
+- Install-Module Terminal-Icons
+- Install-Module -Name z -Force
+- Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
 
-Set-PSReadLineOption -PredictionSource History
-Set-PSReadLineOption -PredictionViewStyle ListView
+- Set-PSReadLineOption -PredictionSource History
+- Set-PSReadLineOption -PredictionViewStyle ListView
 
-Install-Module -Name PSFzf -Scope CurrentUser -Force
+- Install-Module -Name PSFzf -Scope CurrentUser -Force
