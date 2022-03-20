@@ -71,7 +71,7 @@ Watch my video tutorials:
 - [My product: Inkdrop - Markdown note-taking app](https://www.inkdrop.app/)
 ## Install 
 
-- iwr -useb get.scoop.sh | iex
+      iwr -useb get.scoop.sh | iex
 - scoop install curl sudo jq neovim gcc nvm fzf
 - Install-Module posh-git -Scope CurrentUser -Force
 - Install-Module oh-my-posh -Scope CurrentUser -Force
@@ -80,7 +80,7 @@ Watch my video tutorials:
     #Paste 
     . $env:USERPROFILE\.config\powershell\user_profile.ps1
 
-- Install-Module -Name Terminal-Icons -Repository PSGallery -Force                                                                                            -
+- Install-Module -Name Terminal-Icons -Repository PSGallery -Force                                                                              
 - Install-Module Terminal-Icons
 - Install-Module -Name z -Force
 - Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
