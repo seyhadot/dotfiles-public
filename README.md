@@ -6,6 +6,8 @@ https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2
 ## Install 
     iwr -useb get.scoop.sh | iex
     scoop install curl sudo jq neovim gcc nvm fzf
+    nvm install 14.16.0
+    nvm use 14.16.0
     Install-Module posh-git -Scope CurrentUser -Force
     Install-Module oh-my-posh -Scope CurrentUser -Force
     Install-Module -Name Terminal-Icons -Repository PSGallery -Force                                                                                       
