@@ -4,6 +4,7 @@ https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.z
 https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2.35.1.2-32-bit.exe
 
 ## Install 
+    Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
     iwr -useb get.scoop.sh | iex
     scoop install curl sudo jq neovim gcc nvm fzf
     nvm install 14.16.0
