@@ -9,6 +9,7 @@ https://go.dev/learn/
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
     choco install -y git
     choco install -y golang
+    choco install yarn
     irm https://deno.land/install.ps1 | iex
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
     iwr -useb get.scoop.sh | iex
