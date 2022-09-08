@@ -15,6 +15,7 @@ https://go.dev/learn/
     scoop install curl sudo jq neovim gcc nvm fzf make
     nvm install 16.17.0
     nvm use 16.17.0
+    npm install -g nodemon
     Install-Module posh-git -Scope CurrentUser -Force
     #Install-Module oh-my-posh -Scope CurrentUser -Force
     winget install JanDeDobbeleer.OhMyPosh -s winget
