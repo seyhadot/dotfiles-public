@@ -12,6 +12,7 @@ https://github.com/git-for-windows/git/releases/download/v2.35.1.windows.2/Git-2
     Install-Module posh-git -Scope CurrentUser -Force
     #Install-Module oh-my-posh -Scope CurrentUser -Force
     winget install JanDeDobbeleer.OhMyPosh -s winget
+    Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
     Install-Module -Name Terminal-Icons -Repository PSGallery -Force                                                                                       
     Install-Module Terminal-Icons
     Install-Module -Name z -Force
