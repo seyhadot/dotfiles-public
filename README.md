@@ -5,11 +5,10 @@ https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.z
 
 https://go.dev/learn/
 
-## Install 
+## Install Choco and then Restart Power Shell( Open Power Shell with Run as Administrator)
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
-    choco install -y git
-    choco install -y golang
-    choco install yarn
+## Install App
+    choco install -y git golang yarn
     irm https://deno.land/install.ps1 | iex
     Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
     iwr -useb get.scoop.sh | iex
