@@ -5,7 +5,7 @@ https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.z
 
 https://go.dev/learn/
 
-## Install Cancel changes
+## Install 
     Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
     choco install -y git
     choco install -y golang
