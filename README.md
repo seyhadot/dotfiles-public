@@ -22,9 +22,9 @@ https://go.dev/learn/
     Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://ohmyposh.dev/install.ps1'))
     Install-Module -Name Terminal-Icons -Repository PSGallery -Force                                                                                       
     Install-Module Terminal-Icons
-    Install-Module -Name z -Force
-    Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
-    Set-PSReadLineOption -PredictionSource History
+    Install-Module -Name z -Force -AllowClobber
+    Install-Module -Name PSReadLine -AllowClobber -Scope CurrentUser -Force -SkipPublisherCheck
+    Set-PSReadLineOption History
     Set-PSReadLineOption -PredictionViewStyle ListView
     Install-Module -Name PSFzf -Scope CurrentUser -Force
 ### Open Vim or Editor 
